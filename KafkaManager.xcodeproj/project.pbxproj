@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7682A9351C40660500F2D882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9341C40660500F2D882 /* AppDelegate.swift */; };
+		7682A9371C40660500F2D882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9361C40660500F2D882 /* ViewController.swift */; };
+		7682A9391C40660500F2D882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7682A9381C40660500F2D882 /* Assets.xcassets */; };
+		7682A93C1C40660500F2D882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7682A93A1C40660500F2D882 /* Main.storyboard */; };
+		7682A9471C40660500F2D882 /* KafkaManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9461C40660500F2D882 /* KafkaManagerTests.swift */; };
+		7682A9521C40660500F2D882 /* KafkaManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9511C40660500F2D882 /* KafkaManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7682A9431C40660500F2D882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7682A9291C40660400F2D882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7682A9301C40660400F2D882;
+			remoteInfo = KafkaManager;
+		};
+		7682A94E1C40660500F2D882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7682A9291C40660400F2D882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7682A9301C40660400F2D882;
+			remoteInfo = KafkaManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7682A9311C40660500F2D882 /* KafkaManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KafkaManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7682A9341C40660500F2D882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7682A9361C40660500F2D882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7682A9381C40660500F2D882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7682A93B1C40660500F2D882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7682A93D1C40660500F2D882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7682A9421C40660500F2D882 /* KafkaManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KafkaManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7682A9461C40660500F2D882 /* KafkaManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KafkaManagerTests.swift; sourceTree = "<group>"; };
+		7682A9481C40660500F2D882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7682A94D1C40660500F2D882 /* KafkaManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KafkaManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7682A9511C40660500F2D882 /* KafkaManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KafkaManagerUITests.swift; sourceTree = "<group>"; };
+		7682A9531C40660500F2D882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7682A92E1C40660400F2D882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7682A93F1C40660500F2D882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7682A94A1C40660500F2D882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7682A9281C40660400F2D882 = {
+			isa = PBXGroup;
+			children = (
+				7682A9331C40660500F2D882 /* KafkaManager */,
+				7682A9451C40660500F2D882 /* KafkaManagerTests */,
+				7682A9501C40660500F2D882 /* KafkaManagerUITests */,
+				7682A9321C40660500F2D882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7682A9321C40660500F2D882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7682A9311C40660500F2D882 /* KafkaManager.app */,
+				7682A9421C40660500F2D882 /* KafkaManagerTests.xctest */,
+				7682A94D1C40660500F2D882 /* KafkaManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7682A9331C40660500F2D882 /* KafkaManager */ = {
+			isa = PBXGroup;
+			children = (
+				7682A9341C40660500F2D882 /* AppDelegate.swift */,
+				7682A9361C40660500F2D882 /* ViewController.swift */,
+				7682A9381C40660500F2D882 /* Assets.xcassets */,
+				7682A93A1C40660500F2D882 /* Main.storyboard */,
+				7682A93D1C40660500F2D882 /* Info.plist */,
+			);
+			path = KafkaManager;
+			sourceTree = "<group>";
+		};
+		7682A9451C40660500F2D882 /* KafkaManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7682A9461C40660500F2D882 /* KafkaManagerTests.swift */,
+				7682A9481C40660500F2D882 /* Info.plist */,
+			);
+			path = KafkaManagerTests;
+			sourceTree = "<group>";
+		};
+		7682A9501C40660500F2D882 /* KafkaManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7682A9511C40660500F2D882 /* KafkaManagerUITests.swift */,
+				7682A9531C40660500F2D882 /* Info.plist */,
+			);
+			path = KafkaManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7682A9301C40660400F2D882 /* KafkaManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7682A9561C40660500F2D882 /* Build configuration list for PBXNativeTarget "KafkaManager" */;
+			buildPhases = (
+				7682A92D1C40660400F2D882 /* Sources */,
+				7682A92E1C40660400F2D882 /* Frameworks */,
+				7682A92F1C40660400F2D882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KafkaManager;
+			productName = KafkaManager;
+			productReference = 7682A9311C40660500F2D882 /* KafkaManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7682A9411C40660500F2D882 /* KafkaManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7682A9591C40660500F2D882 /* Build configuration list for PBXNativeTarget "KafkaManagerTests" */;
+			buildPhases = (
+				7682A93E1C40660500F2D882 /* Sources */,
+				7682A93F1C40660500F2D882 /* Frameworks */,
+				7682A9401C40660500F2D882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7682A9441C40660500F2D882 /* PBXTargetDependency */,
+			);
+			name = KafkaManagerTests;
+			productName = KafkaManagerTests;
+			productReference = 7682A9421C40660500F2D882 /* KafkaManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7682A94C1C40660500F2D882 /* KafkaManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7682A95C1C40660500F2D882 /* Build configuration list for PBXNativeTarget "KafkaManagerUITests" */;
+			buildPhases = (
+				7682A9491C40660500F2D882 /* Sources */,
+				7682A94A1C40660500F2D882 /* Frameworks */,
+				7682A94B1C40660500F2D882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7682A94F1C40660500F2D882 /* PBXTargetDependency */,
+			);
+			name = KafkaManagerUITests;
+			productName = KafkaManagerUITests;
+			productReference = 7682A94D1C40660500F2D882 /* KafkaManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7682A9291C40660400F2D882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kellan Cummings";
+				TargetAttributes = {
+					7682A9301C40660400F2D882 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7682A9411C40660500F2D882 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7682A9301C40660400F2D882;
+					};
+					7682A94C1C40660500F2D882 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7682A9301C40660400F2D882;
+					};
+				};
+			};
+			buildConfigurationList = 7682A92C1C40660400F2D882 /* Build configuration list for PBXProject "KafkaManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7682A9281C40660400F2D882;
+			productRefGroup = 7682A9321C40660500F2D882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7682A9301C40660400F2D882 /* KafkaManager */,
+				7682A9411C40660500F2D882 /* KafkaManagerTests */,
+				7682A94C1C40660500F2D882 /* KafkaManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7682A92F1C40660400F2D882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7682A9391C40660500F2D882 /* Assets.xcassets in Resources */,
+				7682A93C1C40660500F2D882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7682A9401C40660500F2D882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7682A94B1C40660500F2D882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7682A92D1C40660400F2D882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7682A9371C40660500F2D882 /* ViewController.swift in Sources */,
+				7682A9351C40660500F2D882 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7682A93E1C40660500F2D882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7682A9471C40660500F2D882 /* KafkaManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7682A9491C40660500F2D882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7682A9521C40660500F2D882 /* KafkaManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7682A9441C40660500F2D882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7682A9301C40660400F2D882 /* KafkaManager */;
+			targetProxy = 7682A9431C40660500F2D882 /* PBXContainerItemProxy */;
+		};
+		7682A94F1C40660500F2D882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7682A9301C40660400F2D882 /* KafkaManager */;
+			targetProxy = 7682A94E1C40660500F2D882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7682A93A1C40660500F2D882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7682A93B1C40660500F2D882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7682A9541C40660500F2D882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7682A9551C40660500F2D882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7682A9571C40660500F2D882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KafkaManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fkcomp.KafkaManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7682A9581C40660500F2D882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KafkaManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fkcomp.KafkaManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7682A95A1C40660500F2D882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KafkaManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fkcomp.KafkaManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KafkaManager.app/Contents/MacOS/KafkaManager";
+			};
+			name = Debug;
+		};
+		7682A95B1C40660500F2D882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KafkaManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fkcomp.KafkaManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KafkaManager.app/Contents/MacOS/KafkaManager";
+			};
+			name = Release;
+		};
+		7682A95D1C40660500F2D882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KafkaManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fkcomp.KafkaManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KafkaManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7682A95E1C40660500F2D882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KafkaManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fkcomp.KafkaManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KafkaManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7682A92C1C40660400F2D882 /* Build configuration list for PBXProject "KafkaManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7682A9541C40660500F2D882 /* Debug */,
+				7682A9551C40660500F2D882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7682A9561C40660500F2D882 /* Build configuration list for PBXNativeTarget "KafkaManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7682A9571C40660500F2D882 /* Debug */,
+				7682A9581C40660500F2D882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7682A9591C40660500F2D882 /* Build configuration list for PBXNativeTarget "KafkaManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7682A95A1C40660500F2D882 /* Debug */,
+				7682A95B1C40660500F2D882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7682A95C1C40660500F2D882 /* Build configuration list for PBXNativeTarget "KafkaManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7682A95D1C40660500F2D882 /* Debug */,
+				7682A95E1C40660500F2D882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7682A9291C40660400F2D882 /* Project object */;
+}
