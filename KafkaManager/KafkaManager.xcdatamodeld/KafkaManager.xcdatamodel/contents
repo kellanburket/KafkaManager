@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="CustomConsumer" representedClassName=".CustomConsumer" syncable="YES">
+        <attribute name="log_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="process" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="kafka_server" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KafkaServer" inverseName="custom_consumers" inverseEntity="KafkaServer" syncable="YES"/>
+    </entity>
+    <entity name="CustomProducer" representedClassName=".CustomProducer" syncable="YES">
+        <attribute name="log_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="process" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="kafka_server" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KafkaServer" inverseName="custom_producers" inverseEntity="KafkaServer" syncable="YES"/>
+    </entity>
+    <entity name="KafkaServer" representedClassName=".KafkaServer" syncable="YES">
+        <attribute name="ip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path_to_bin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="custom_consumers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CustomConsumer" inverseName="kafka_server" inverseEntity="CustomConsumer" syncable="YES"/>
+        <relationship name="custom_producers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CustomProducer" inverseName="kafka_server" inverseEntity="CustomProducer" syncable="YES"/>
+    </entity>
+    <entity name="ZookeeperServer" representedClassName=".ZookeeperServer" syncable="YES">
+        <attribute name="ip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path_to_bin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CustomConsumer" positionX="-18" positionY="72" width="128" height="105"/>
+        <element name="CustomProducer" positionX="0" positionY="81" width="128" height="105"/>
+        <element name="KafkaServer" positionX="-45" positionY="18" width="128" height="135"/>
+        <element name="ZookeeperServer" positionX="-54" positionY="9" width="128" height="90"/>
+    </elements>
+</model>

@@ -7,12 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76227F041C417B2F00768386 /* EditableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F031C417B2F00768386 /* EditableTableView.swift */; };
+		76227F061C41803B00768386 /* KafkaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F051C41803B00768386 /* KafkaViewController.swift */; };
+		76227F081C41804400768386 /* ZookeeperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F071C41804400768386 /* ZookeeperViewController.swift */; };
+		76227F0A1C42225B00768386 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F091C42225B00768386 /* HomeViewController.swift */; };
+		76227F0D1C43068500768386 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F0C1C43068500768386 /* Producer.swift */; };
+		76227F0F1C43069200768386 /* Broker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F0E1C43069200768386 /* Broker.swift */; };
+		76227F111C43069B00768386 /* Consumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F101C43069B00768386 /* Consumer.swift */; };
+		76227F131C430CE600768386 /* ZookeeperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F121C430CE600768386 /* ZookeeperClient.swift */; };
+		76227F151C430EAE00768386 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F141C430EAE00768386 /* Connection.swift */; };
+		76227F171C43116900768386 /* BaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F161C43116900768386 /* BaseClient.swift */; };
+		76227F191C4336BF00768386 /* Subprocess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F181C4336BF00768386 /* Subprocess.swift */; };
+		76227F1B1C433C1B00768386 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F1A1C433C1B00768386 /* Extensions.swift */; };
+		76227F1D1C43448B00768386 /* SystemBinaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F1C1C43448B00768386 /* SystemBinaries.swift */; };
+		76227F201C436A7200768386 /* Wildcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F1F1C436A7200768386 /* Wildcard.swift */; };
+		76227F221C440AB100768386 /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76227F211C440AB100768386 /* Cluster.swift */; };
 		7682A9351C40660500F2D882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9341C40660500F2D882 /* AppDelegate.swift */; };
 		7682A9371C40660500F2D882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9361C40660500F2D882 /* ViewController.swift */; };
 		7682A9391C40660500F2D882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7682A9381C40660500F2D882 /* Assets.xcassets */; };
 		7682A93C1C40660500F2D882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7682A93A1C40660500F2D882 /* Main.storyboard */; };
 		7682A9471C40660500F2D882 /* KafkaManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9461C40660500F2D882 /* KafkaManagerTests.swift */; };
 		7682A9521C40660500F2D882 /* KafkaManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9511C40660500F2D882 /* KafkaManagerUITests.swift */; };
+		7682A9661C4075DE00F2D882 /* SSH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9641C4075DE00F2D882 /* SSH.swift */; };
+		7682A96B1C40A2C700F2D882 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682A96A1C40A2C700F2D882 /* Server.swift */; };
+		7682A9A81C40A70F00F2D882 /* KafkaManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7682A9A61C40A70F00F2D882 /* KafkaManager.xcdatamodeld */; };
+		769EB0471C4466330057FE73 /* ConsumerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EB0461C4466330057FE73 /* ConsumerViewController.swift */; };
+		769EB0491C4468F70057FE73 /* ServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EB0481C4468F70057FE73 /* ServerViewController.swift */; };
+		76F5C1641C4492D300D091F4 /* CustomProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5C1631C4492D300D091F4 /* CustomProcess.swift */; };
+		76F5C1661C4492D700D091F4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5C1651C4492D700D091F4 /* Model.swift */; };
+		76F5C1681C45A7CE00D091F4 /* BaseProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5C1671C45A7CE00D091F4 /* BaseProcess.swift */; };
+		76F5C16A1C45CB6D00D091F4 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5C1691C45CB6D00D091F4 /* Functions.swift */; };
+		76F5C16C1C45EA1200D091F4 /* ClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5C16B1C45EA1200D091F4 /* ClusterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +58,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76227F031C417B2F00768386 /* EditableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableTableView.swift; sourceTree = "<group>"; };
+		76227F051C41803B00768386 /* KafkaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KafkaViewController.swift; sourceTree = "<group>"; };
+		76227F071C41804400768386 /* ZookeeperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZookeeperViewController.swift; sourceTree = "<group>"; };
+		76227F091C42225B00768386 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		76227F0C1C43068500768386 /* Producer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Producer.swift; path = Kafka/Producer.swift; sourceTree = "<group>"; };
+		76227F0E1C43069200768386 /* Broker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Broker.swift; path = Kafka/Broker.swift; sourceTree = "<group>"; };
+		76227F101C43069B00768386 /* Consumer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Consumer.swift; path = Kafka/Consumer.swift; sourceTree = "<group>"; };
+		76227F121C430CE600768386 /* ZookeeperClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZookeeperClient.swift; sourceTree = "<group>"; };
+		76227F141C430EAE00768386 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		76227F161C43116900768386 /* BaseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClient.swift; sourceTree = "<group>"; };
+		76227F181C4336BF00768386 /* Subprocess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Subprocess.swift; path = Kafka/Subprocess.swift; sourceTree = "<group>"; };
+		76227F1A1C433C1B00768386 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		76227F1C1C43448B00768386 /* SystemBinaries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemBinaries.swift; sourceTree = "<group>"; };
+		76227F1F1C436A7200768386 /* Wildcard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Wildcard.swift; path = Wildcard/Wildcard.swift; sourceTree = "<group>"; };
+		76227F211C440AB100768386 /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cluster.swift; path = Kafka/Cluster.swift; sourceTree = "<group>"; };
 		7682A9311C40660500F2D882 /* KafkaManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KafkaManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7682A9341C40660500F2D882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7682A9361C40660500F2D882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +85,16 @@
 		7682A94D1C40660500F2D882 /* KafkaManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KafkaManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7682A9511C40660500F2D882 /* KafkaManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KafkaManagerUITests.swift; sourceTree = "<group>"; };
 		7682A9531C40660500F2D882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7682A9641C4075DE00F2D882 /* SSH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSH.swift; sourceTree = "<group>"; };
+		7682A96A1C40A2C700F2D882 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		7682A9A71C40A70F00F2D882 /* KafkaManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KafkaManager.xcdatamodel; sourceTree = "<group>"; };
+		769EB0461C4466330057FE73 /* ConsumerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumerViewController.swift; sourceTree = "<group>"; };
+		769EB0481C4468F70057FE73 /* ServerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerViewController.swift; sourceTree = "<group>"; };
+		76F5C1631C4492D300D091F4 /* CustomProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProcess.swift; sourceTree = "<group>"; };
+		76F5C1651C4492D700D091F4 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		76F5C1671C45A7CE00D091F4 /* BaseProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseProcess.swift; path = Kafka/BaseProcess.swift; sourceTree = "<group>"; };
+		76F5C1691C45CB6D00D091F4 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Kafka/Functions.swift; sourceTree = "<group>"; };
+		76F5C16B1C45EA1200D091F4 /* ClusterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +122,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76227F0B1C43066E00768386 /* Kafka */ = {
+			isa = PBXGroup;
+			children = (
+				7682A9641C4075DE00F2D882 /* SSH.swift */,
+				76227F0C1C43068500768386 /* Producer.swift */,
+				76227F1C1C43448B00768386 /* SystemBinaries.swift */,
+				76227F121C430CE600768386 /* ZookeeperClient.swift */,
+				76227F211C440AB100768386 /* Cluster.swift */,
+				76F5C1691C45CB6D00D091F4 /* Functions.swift */,
+				76227F181C4336BF00768386 /* Subprocess.swift */,
+				76227F141C430EAE00768386 /* Connection.swift */,
+				76227F0E1C43069200768386 /* Broker.swift */,
+				76227F101C43069B00768386 /* Consumer.swift */,
+				76227F161C43116900768386 /* BaseClient.swift */,
+				76F5C1671C45A7CE00D091F4 /* BaseProcess.swift */,
+			);
+			name = Kafka;
+			sourceTree = "<group>";
+		};
+		76227F1E1C436A5500768386 /* WIldcard */ = {
+			isa = PBXGroup;
+			children = (
+				76227F1F1C436A7200768386 /* Wildcard.swift */,
+			);
+			name = WIldcard;
+			sourceTree = "<group>";
+		};
 		7682A9281C40660400F2D882 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +172,20 @@
 		7682A9331C40660500F2D882 /* KafkaManager */ = {
 			isa = PBXGroup;
 			children = (
+				76F5C15A1C4491ED00D091F4 /* Models */,
+				76227F1E1C436A5500768386 /* WIldcard */,
+				76227F0B1C43066E00768386 /* Kafka */,
 				7682A9341C40660500F2D882 /* AppDelegate.swift */,
+				7682A9A61C40A70F00F2D882 /* KafkaManager.xcdatamodeld */,
 				7682A9361C40660500F2D882 /* ViewController.swift */,
+				769EB0481C4468F70057FE73 /* ServerViewController.swift */,
+				769EB0461C4466330057FE73 /* ConsumerViewController.swift */,
+				76227F091C42225B00768386 /* HomeViewController.swift */,
+				76F5C16B1C45EA1200D091F4 /* ClusterViewController.swift */,
+				76227F1A1C433C1B00768386 /* Extensions.swift */,
+				76227F051C41803B00768386 /* KafkaViewController.swift */,
+				76227F071C41804400768386 /* ZookeeperViewController.swift */,
+				76227F031C417B2F00768386 /* EditableTableView.swift */,
 				7682A9381C40660500F2D882 /* Assets.xcassets */,
 				7682A93A1C40660500F2D882 /* Main.storyboard */,
 				7682A93D1C40660500F2D882 /* Info.plist */,
@@ -120,6 +209,16 @@
 				7682A9531C40660500F2D882 /* Info.plist */,
 			);
 			path = KafkaManagerUITests;
+			sourceTree = "<group>";
+		};
+		76F5C15A1C4491ED00D091F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7682A96A1C40A2C700F2D882 /* Server.swift */,
+				76F5C1631C4492D300D091F4 /* CustomProcess.swift */,
+				76F5C1651C4492D700D091F4 /* Model.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +352,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				7682A9371C40660500F2D882 /* ViewController.swift in Sources */,
+				76227F1B1C433C1B00768386 /* Extensions.swift in Sources */,
+				76227F111C43069B00768386 /* Consumer.swift in Sources */,
+				76227F061C41803B00768386 /* KafkaViewController.swift in Sources */,
+				76227F191C4336BF00768386 /* Subprocess.swift in Sources */,
+				76F5C16A1C45CB6D00D091F4 /* Functions.swift in Sources */,
+				769EB0491C4468F70057FE73 /* ServerViewController.swift in Sources */,
+				7682A9A81C40A70F00F2D882 /* KafkaManager.xcdatamodeld in Sources */,
+				76F5C1661C4492D700D091F4 /* Model.swift in Sources */,
+				76227F0D1C43068500768386 /* Producer.swift in Sources */,
+				76227F201C436A7200768386 /* Wildcard.swift in Sources */,
+				76227F171C43116900768386 /* BaseClient.swift in Sources */,
+				76227F0F1C43069200768386 /* Broker.swift in Sources */,
+				76227F151C430EAE00768386 /* Connection.swift in Sources */,
+				7682A9661C4075DE00F2D882 /* SSH.swift in Sources */,
+				76F5C1681C45A7CE00D091F4 /* BaseProcess.swift in Sources */,
+				76227F0A1C42225B00768386 /* HomeViewController.swift in Sources */,
+				76F5C16C1C45EA1200D091F4 /* ClusterViewController.swift in Sources */,
+				76227F041C417B2F00768386 /* EditableTableView.swift in Sources */,
+				76227F081C41804400768386 /* ZookeeperViewController.swift in Sources */,
+				7682A96B1C40A2C700F2D882 /* Server.swift in Sources */,
+				76227F131C430CE600768386 /* ZookeeperClient.swift in Sources */,
+				769EB0471C4466330057FE73 /* ConsumerViewController.swift in Sources */,
 				7682A9351C40660500F2D882 /* AppDelegate.swift in Sources */,
+				76227F1D1C43448B00768386 /* SystemBinaries.swift in Sources */,
+				76F5C1641C4492D300D091F4 /* CustomProcess.swift in Sources */,
+				76227F221C440AB100768386 /* Cluster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +599,7 @@
 				7682A9581C40660500F2D882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7682A9591C40660500F2D882 /* Build configuration list for PBXNativeTarget "KafkaManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +608,7 @@
 				7682A95B1C40660500F2D882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7682A95C1C40660500F2D882 /* Build configuration list for PBXNativeTarget "KafkaManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,8 +617,22 @@
 				7682A95E1C40660500F2D882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7682A9A61C40A70F00F2D882 /* KafkaManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7682A9A71C40A70F00F2D882 /* KafkaManager.xcdatamodel */,
+			);
+			currentVersion = 7682A9A71C40A70F00F2D882 /* KafkaManager.xcdatamodel */;
+			path = KafkaManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7682A9291C40660400F2D882 /* Project object */;
 }
